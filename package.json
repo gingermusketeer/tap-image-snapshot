@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "tap --no-esm",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
   },
   "keywords": [
     "tap",
