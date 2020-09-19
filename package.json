@@ -4,7 +4,8 @@
   "description": "tap utility for comparing image snapshots",
   "main": "lib/index.js",
   "scripts": {
-    "test": "tap --no-esm"
+    "test": "tap --no-esm",
+    "format": "prettier --write ."
   },
   "keywords": [
     "tap",
@@ -15,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^2.1.2",
     "tap": "^14.10.8"
   },
   "dependencies": {
