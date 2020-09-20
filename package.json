@@ -4,7 +4,7 @@
   "description": "tap utility for comparing image snapshots",
   "main": "lib/index.js",
   "scripts": {
-    "test": "tap --no-esm",
+    "test": "tap --no-esm **/**.test.js",
     "format": "prettier --write .",
     "format-check": "prettier --check ."
   },

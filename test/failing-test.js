@@ -4,7 +4,7 @@ import installImageSnapshot from "../lib/index.js";
 
 installImageSnapshot(tap);
 
-tap.test("images are different (VM)", (t) => {
+tap.test("failing test - images are different", (t) => {
   if (t.writeSnapshot) {
     t.matchImageSnapshot(fs.readFileSync("test/fixtures/1b.png"));
   } else {
