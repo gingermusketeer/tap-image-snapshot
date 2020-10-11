@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "tap --no-esm **/**.test.js",
+    "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check ."
   },
@@ -17,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
     "prettier": "^2.1.2",
     "tap": "^14.10.8"
   },
